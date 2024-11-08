@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 La planificación ganadera es el proceso estratégico de organizar y gestionar todos los aspectos de una explotación ganadera con el objetivo de maximizar la producción, optimizar el uso de recursos y garantizar la sostenibilidad. Implica la toma de decisiones informadas sobre la selección de razas, manejo de pasturas, alimentación, sanidad animal y reproducción, así como la evaluación de la rentabilidad y el impacto ambiental. Una buena planificación permite anticipar necesidades, adaptarse a cambios y mejorar el bienestar del ganado, asegurando así el éxito a largo plazo de la actividad ganadera. Los forrajes son plantas utilizadas para alimentar al ganado herbívoro y son esenciales en la ganadería.
 
     .row.justify-content-center
       .col-lg-10.mb-5
