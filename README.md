@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-atlantico.github.io/72312126_CF02_GANADERIA_SUSTENTABLE/#/](https://ecoredsena-atlantico.github.io/72312126_CF02_GANADERIA_SUSTENTABLE/#/)
 
 #
 
