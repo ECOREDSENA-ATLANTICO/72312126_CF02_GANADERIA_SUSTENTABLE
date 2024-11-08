@@ -137,13 +137,12 @@ export default {
       referencia:
         'Aguilar, N., Rossner, M. y Balbuena, O. (2012). Manual práctico de bienestar animal',
       link:
-        'https://inta.gob.ar/documentos/manual-practico-de-bienestar-animal',
+        'https://www.produccion-animal.com.ar/etologia_y_bienestar/bienestar_en_bovinos/73-Manual_bienestar.pdf',
     },
     {
       referencia:
         'De la sota, M. (2004). Manual de procedimiento de bienestar animal.',
-      link:
-        'http://www.produccion- animal.com.ar/etologia_y_bienestar/bienestar_en_general/06- manual_procedimientos_bienestar_animal.pdf',
+      link: '',
     },
     {
       referencia:
@@ -152,32 +151,32 @@ export default {
     },
     {
       referencia:
+        'FEDEGAN, Federación Colombiana de Ganaderos. Fondo Nacional del ganado. (2024). Proyecto ganadería colombiana sostenible',
+      link:
+        'https://www.fedegan.org.co/programas/proyecto-ganaderia-colombiana-sostenible',
+    },
+    {
+      referencia:
         'ICA. (2006). Bienestar animal: nuevo reto para la ganadería. Consultado el 24 de marzo de 2015.',
-      link:
-        'http://www.ica.gov.co/getattachment/79b98e64-a258- 46d5-9ce1-1375a8312434/Publicacion-20.aspx',
-    },
-    {
-      referencia:
-        'Ojeda, P., Restrepo, J., Villada, D. y Gallego, J. (2003). Sistemas silvopastoriles, una opción para el manejo sustentable de la ganadería.',
-      link:
-        'http://bibliotecadigital.agronet.gov.co/bitstream/11348/3911/2/2006102417332_ Sistemas%20silvopastoriles%20sustentable%20ganaderia.pdf',
-    },
-    {
-      referencia:
-        'Uribe, F., Zuluaga, A., Murgueitio, E., Valencia, L., Zapata, A., Solarte, L., Cuartas, C., Naranjo, J., Galindo, W., González, J., Sinisterra, J., Gómez, J., Molina, C., Molina, E., Galindo, A., Galindo, V., Soto, R., Banco Mundial, Fondo Acción, GEF, FEDEGAN, CIPAV, TNC. (2011). Proyecto ganadería colombiana sostenible.',
-      link: 'https://cipav.org.co/pdf/1.Establecimiento.y.manejo.de.SSP.pdf',
+      link: '',
     },
     {
       referencia:
         'The World Organization for Animal Health. (2010). Código sanitario para animales terrestres.',
       link:
-        'https://www.woah.org/es/que-hacemos/normas/acceso-en-linea-al-codigo-terrestre/',
+        'https://www.woah.org/es/que-hacemos/normas/codigos-y-manuales/acceso-en-linea-al-codigo-terrestre/',
     },
     {
       referencia:
         'Villanueva, C., Ibrahim, M., Torres, K., Casasola, F. y Arguedas, R. (2005). Las cercas vivas en las fincas ganaderas.',
       link:
-        'http://www.produccion-animal.com.ar/informacion_tecnica/instalaciones/16- cercasvivas.pdf',
+        'https://repositorio.catie.ac.cr/bitstream/handle/11554/7782/Cercas_vivas.pdf?sequence=2&isAllowed=y',
+    },
+    {
+      referencia:
+        'Zapata Cadavid Álvaro; Tapasco Silva, Beatriz Elena. (2020). Sistemas silvopastoriles. Aspectos teóricos y prácticos.',
+      link:
+        'https://cipav.org.co/wp-content/uploads/2020/08/sistemas-silvopastoriles-aspectos-teoricos-y-practicos.pdf',
     },
   ],
   creditos: [
