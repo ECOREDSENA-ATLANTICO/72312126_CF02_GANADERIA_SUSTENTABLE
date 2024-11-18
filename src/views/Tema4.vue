@@ -7,14 +7,15 @@
         span 4
       h1 Bienestar animal, instalaciones y transporte de bovinos
 
-    .row.justify-content-start.my-4(style="background: #DFC6B3")
-      .col-lg-5.col-md-8.align-content-center
-        figure
-          img(style="position: relative; right: 10px")(src='@/assets/curso/temas/tema4/img1.png', alt='Texto que describa la imagen')
-      .col-lg-7.p-4
-        p En la granja se dan por lo general muchas circunstancias que afectan el bienestar de los animales, lo cual ejerce un marcado efecto sobre la calidad e inocuidad de la carne obtenida.
-        p Entre otros factores que pueden afectar una unidad productiva son las instalaciones deficientes, elementos cortopunzantes y objetos contundentes como el uso de toques eléctricos durante la carga del animal, además no se recomienda el uso de perros para dirigir el ganado o torcer la cola de los bovinos para así forzar la movilización.
 
+    .bloque-texto-g.p-3.p-sm-4.p-md-5.my-3(data-aos="flip-up")(style="background: #DFC6B3")
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img1.png')})`}"
+      )
+      .bloque-texto-g__texto.p-3(data-aos="fade-left")(style="background: #DFC6B3")
+        p En la granja se dan por lo general muchas circunstancias que afectan el bienestar de los animales, lo cual ejerce un marcado efecto sobre la calidad e inocuidad de la carne obtenida.<br>
+        p Entre otros factores que pueden afectar una unidad productiva son las instalaciones deficientes, elementos cortopunzantes y objetos contundentes como el uso de toques eléctricos durante la carga del animal, además no se recomienda el uso de perros para dirigir el ganado o torcer la cola de los bovinos para así forzar la movilización.
+    
     .row.justify-content-center.mb-4
       .col-lg-9.justify-content-center.align-content-center(data-aos="flip-left")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
@@ -45,7 +46,7 @@
               img.my-3(src="@/assets/curso/temas/tema4/img6.png", alt="alt")
       .col-lg-3.col-md-6.align-content-center(data-aos="fade-right")
         figure
-          img.my-4(src="@/assets/curso/temas/tema4/img2.png", alt="alt")
+          img.my-4(src="@/assets/curso/temas/tema4/img2.png", alt="alt")(style="height: 450px")
 
     .row.mt-4.mb-4.align-items-center(data-aos="fade-left")
       .col-auto
@@ -60,7 +61,7 @@
         figure
           img.my-3(src="@/assets/curso/temas/tema4/img7.png")
       .col-lg-8
-        SlyderF.custom(columnas="col-lg-6 col-md-12")
+        SlyderF.custom(columnas="col-lg-6 col-md-6")
           .tarjeta.tarjeta--slyder.p-4.fnd-4
             p.mb-0 <b>Fijación de los gases:</b> lograr la fijación de los gases de dióxido de carbono a través de los árboles y arbustos, pues estos en su proceso natural lo absorben y transforman en oxígeno. Por tal razón funcionan como sumideros de carbono, ya que depositan el gas en su tejido leñoso o en el suelo, evitando que se eleve a la atmósfera y se caliente.	 
           .tarjeta.tarjeta--slyder.p-4.fnd-4
@@ -81,41 +82,41 @@
           img.my-3(src='@/assets/curso/temas/tema4/img8.svg', alt='Imagen decorativa')
         figcaption Fuente. ICA (2006).
 
-    .row.justify-content-center.my-3
+    .row.justify-content-center.my-3.me-1
       .col-lg-6.crd--avatarHorizontal-left-bgr2.p-3.mb-3.m-auto
         .row.align-items-center.top
           .col-auto(style="z-index:1")
             figure
               img(src="@/assets/curso/temas/tema4/img9.png", alt="", width= "75px", height="75px")
           .col(style="z-index:1")
-            p.mb-0 El desplazamiento de los bovinos depende de la fiereza o de la mansedumbre del animal. La mayoría del ganado es manso, no tiene zona de fuga y se deja llevar sin problema, ya que se dejan tocar fácilmente. Cuando un animal se aleja de las personas es porque éste se aproxima mucho a la zona de fuga.
+            p.pe-3.mb-0 El desplazamiento de los bovinos depende de la fiereza o de la mansedumbre del animal. La mayoría del ganado es manso, no tiene zona de fuga y se deja llevar sin problema, ya que se dejan tocar fácilmente. Cuando un animal se aleja de las personas es porque éste se aproxima mucho a la zona de fuga.
       .col-lg-6.crd--avatarHorizontal-left-bgr2.p-3.mb-3.m-auto
         .row.align-items-center.top
           .col-auto(style="z-index:1")
             figure
               img(src="@/assets/curso/temas/tema4/img10.png", alt="", width= "75px", height="75px")
           .col(style="z-index:1")
-            p.mb-0 El punto de balance es un punto imaginario que también se llama de equilibrio y se encuentra a la altura del hombro del animal, es clave para movilizar a los bovinos, por ejemplo, el animal se moverá hacia adelante si la persona se ubica detrás del punto de balance y si se hace frente a éste, el animal retrocederá.
-    .row.justify-content-center.my-3
+            p.mb-0.pe-3 El punto de balance es un punto imaginario que también se llama de equilibrio y se encuentra a la altura del hombro del animal, es clave para movilizar a los bovinos, por ejemplo, el animal se moverá hacia adelante si la persona se ubica detrás del punto de balance y si se hace frente a éste, el animal retrocederá.
+    .row.justify-content-center.my-3.me-1
       .col-lg-6.crd--avatarHorizontal-left-bgr2.p-3.mb-3.m-auto
-        .row.align-items-center.top
-          .col-auto(style="z-index:1")
+        .row.align-items-center.top-1
+          .col-auto.align-content-center(style="z-index:1")
             figure
               img(src="@/assets/curso/temas/tema4/img11.png", alt="", width= "75px", height="75px")
           .col(style="z-index:1")
-            p.mb-0 En los bovinos existe un punto ciego que está ubicado detrás de la cola del animal, el cual debe ser evitado por la persona que los dirige, pues si el animal no ve al operario, dará la vuelta entorpeciendo la actividad que se está realizando.
+            p.mb-0.pe-3 En los bovinos existe un punto ciego que está ubicado detrás de la cola del animal, el cual debe ser evitado por la persona que los dirige, pues si el animal no ve al operario, dará la vuelta entorpeciendo la actividad que se está realizando.
       .col-lg-6.crd--avatarHorizontal-left-bgr2.p-3.mb-3.m-auto
         .row.align-items-center.top
           .col-auto(style="z-index:1")
             figure
               img(src="@/assets/curso/temas/tema4/img12.png", alt="", width= "75px", height="75px")
           .col(style="z-index:1")
-            p.mb-0 Los principios de zona de fuga y punto de balance se utilizan para hacer que el ganado camine en las mangas, es importante tener en cuenta que cuando el animal está dentro de la manga no es necesario golpearlo o utilizar el tábano para que este se mueva, ya que si se aplica bien el punto de balance ellos se moverán con facilidad.
+            p.mb-0.pe-3 Los principios de zona de fuga y punto de balance se utilizan para hacer que el ganado camine en las mangas, es importante tener en cuenta que cuando el animal está dentro de la manga no es necesario golpearlo o utilizar el tábano para que este se mueva, ya que si se aplica bien el punto de balance ellos se moverán con facilidad.
 
     .row.justify-content-center.my-3
       .col-lg-3.col-md-6.align-content-center
         figure
-          img.my-3(src='@/assets/curso/temas/tema4/img14.png', alt='Imagen decorativa')
+          img.my-3(src='@/assets/curso/temas/tema4/img14.png', alt='Imagen decorativa')(style="height: 520px")
       .col-lg-9
         .row.mt-4.mb-4.align-items-center(data-aos="fade-left")
           .col-auto
@@ -177,54 +178,56 @@
                 figure
                   img(src="@/assets/curso/temas/tema4/img15.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Cuando se transportan bovinos se debe respetar la densidad de la carga del vehículo, lo que favorece a una buena ventilación que ayuda a disminuir el estrés y a minimizar el riesgo de la morbilidad del animal durante el viaje, disminuyendo las pérdidas.
+                p.pe-1.mb-0 Cuando se transportan bovinos se debe respetar la densidad de la carga del vehículo, lo que favorece a una buena ventilación que ayuda a disminuir el estrés y a minimizar el riesgo de la morbilidad del animal durante el viaje, disminuyendo las pérdidas.
 
-    .titulo-sexto.color-acento-contenido.mb-3
-        h5 Tabla 3.
-        span <em>Normas recomendadas para la densidad de carga</em>
-    .tabla-b
-      table.text-center
-        caption Fuente: The World Organization for Animal Health (2010).
-        thead
-          tr
-            th(style="background: #DFE5AD; border: 1.2px solid #000000") Animal
-            th(style="background: #F6F8E9; border: 1.2px solid #000000") Peso (kg)
-            th(style="border: 1.2px solid #000000") Densidad ( kg/m2)
-            th(style="border: 1.2px solid #000000") Espacio de animal en (m2)
-            th(style="border: 1.2px solid #000000") N° de animales por 10 m2
-        tbody
-          tr
-            td(rowspan="2") Terneros
-            td 50
-            td 220
-            td 0,23
-            td 43
-          tr
-            td 70
-            td 246
-            td 0,28
-            td 36
-          tr
-            td(rowspan="4") Bovinos
-            td 300
-            td 344
-            td 0,84
-            td 12
-          tr
-            td 500
-            td 393
-            td 1,27
-            td 8
-          tr
-            td 600
-            td 408
-            td 1,47
-            td 7
-          tr
-            td 700
-            td 400
-            td 1,75
-            td 6
+    .row.justify-content-center.my-3
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3
+            h5 Tabla 3.
+            span <em>Normas recomendadas para la densidad de carga</em>
+        .tabla-b
+          table.text-center
+            caption Fuente: The World Organization for Animal Health (2010).
+            thead
+              tr
+                th(style="background: #DFE5AD; border: 1.2px solid #000000") Animal
+                th(style="background: #F6F8E9; border: 1.2px solid #000000") Peso (kg)
+                th(style="border: 1.2px solid #000000") Densidad ( kg/m2)
+                th(style="border: 1.2px solid #000000") Espacio de animal en (m2)
+                th(style="border: 1.2px solid #000000") N° de animales por 10 m2
+            tbody
+              tr
+                td(rowspan="2") Terneros
+                td 50
+                td 220
+                td 0,23
+                td 43
+              tr
+                td 70
+                td 246
+                td 0,28
+                td 36
+              tr
+                td(rowspan="4") Bovinos
+                td 300
+                td 344
+                td 0,84
+                td 12
+              tr
+                td 500
+                td 393
+                td 1,27
+                td 8
+              tr
+                td 600
+                td 408
+                td 1,47
+                td 7
+              tr
+                td 700
+                td 400
+                td 1,75
+                td 6
 
     .row.mt-4.mb-4.align-items-center(data-aos="fade-left")
       .col-auto
@@ -241,7 +244,7 @@
 
     .row.justify-content-center.my-3
       .col-lg-4.col-md-8.align-content-center
-        img(src='@/assets/curso/temas/tema4/img16.png', alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema4/img16.png', alt='Imagen decorativa')(style="height: 430px")
       .col-lg-8 
         p.my-3 Es un proceso donde el animal es puesto en un estado inconsciente con el fin de que no sufra dolor en el momento del sacrificio. Para el caso de los bovinos se pueden utilizar medidas mecánicas como por ejemplo a través de una pistola de perno cautivo que se dispara en la frente del animal y le ocasiona un daño cerebral de manera inmediata dejándolo inconsciente.
         .fondo-vineta

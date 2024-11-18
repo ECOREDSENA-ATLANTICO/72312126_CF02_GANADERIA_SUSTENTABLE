@@ -10,17 +10,17 @@
     p.my-3 Se pueden cultivar tres tipos de bancos de proteína:
 
     .row.justify-content-center.my-3
-      .col-lg-3.p-0.my-3(style="background: #DFC6B3; border-radius: 20px")
+      .col-lg-3.col-md-5.p-0.my-3(style="background: #DFC6B3; border-radius: 20px")
         figure
           img.mx-0(src="@/assets/curso/temas/tema2/img1.png", alt="imagen decorativa")
         p.ali.px-3.pt-3.text-center <b>Especies forrajeras arbóreas que<br>se siembran solas</b>
         p.px-3.text-center Se dan a altas densidades y las podas se deben realizar de manera manual.
-      .col-lg-3.p-0.mx-3.my-3(style="background: #BBEDFD; border-radius: 20px")
+      .col-lg-3.col-md-5.p-0.mx-3.my-3(style="background: #BBEDFD; border-radius: 20px")
         figure
           img.mx-0(src="@/assets/curso/temas/tema2/img2.png", alt="imagen decorativa")
         p.px-3.pt-3.text-center <b>Forrajeras arbóreas asociadas</b>
         p.px-3.text-center Son de porte mayor que la anterior y se siembra en los cultivos o en los pastos. Estos árboles crecen mucho, lo que dificulta al animal consumirlos directamente, por lo que se debe hacer de forma manual llevando el material comestible al sitio donde el ganado come.
-      .col-lg-3.p-0.my-3(style="background: #DFC6B3; border-radius: 20px")
+      .col-lg-3.col-md-5.p-0.my-3(style="background: #DFC6B3; border-radius: 20px")
         figure
           img.mx-0(src="@/assets/curso/temas/tema2/img3.png", alt="imagen decorativa")
         p.px-3.pt-3.text-center <b>Especies forrajeras arbóreas sembradas en bordes o franjas.</b>
@@ -81,98 +81,99 @@
               .col(style="z-index:1")
                 p.mb-0 En los bancos mixtos se encuentran especies que tienen alto contenido de proteínas y de energía, esto hace que sea una muy buena alternativa de alimentación para que los animales tengan una buena nutrición. Según las condiciones bioclimáticas se pueden hacer diferentes combinaciones de especies para establecer el banco forrajero.
 
-
-    .titulo-sexto.color-acento-contenido.mb-3
-        h5 Tabla 2.
-        span <em>Especies arbóreas y arbustivas para bancos forrajeros</em>
-    .tabla-b
-      table.text-center
-        caption Fuente: Uribe, Zuluaga, Murgueitio, Valencia y cols (2011).
-        thead
-          tr
-            th(style="background: #DFE5AD; border: 1.2px solid #000000") Nombre común C
-            th(style="background: #DFC6B3; border: 1.2px solid #000000") Nombre científico
-            th(style="background: #DFC6B3; border: 1.2px solid #000000") Familia
-            th(style="background: #DFC6B3; border: 1.2px solid #000000") Piso térmico
-        tbody
-          tr
-            td Bore
-            td Xanthosoma sagittifolium Schott
-            td Araceae
-            td 0 – 1.800
-          tr
-            td Botón de oro
-            td Tithonia diversifolia (Hemsl.) Gray
-            td Asteraceae
-            td 0 – 2.400
-          tr
-            td Cachimbo, Cámbulo y poró
-            td Erythrina poeppigiana (Walp.) Cook
-            td Papilionaceae
-            td 600 – 1.400
-          tr
-            td Caña de azúcar
-            td Saccharum officinarum L
-            td Poaceae
-            td 0 – 2.300
-          tr
-            td Chachafruto
-            td Erytrhina edulis Triana
-            td Papilionaceae
-            td 1.400 – 2.500
-          tr
-            td Cratylia, Veranera
-            td Cratylia argentea(Desv.) Kuntze
-            td Papilionaceae
-            td 180 – 930
-          tr
-            td Gamboa
-            td Smallanthus	riparius (H.B.K.)
-            td Arastaceae
-            td 1.000 – 1.850
-          tr
-            td Maní forrajero
-            td Arachis pintoi Kaprov. & WC Gregory
-            td Papilionaceae
-            td 0 – 1.500
-          tr
-            td Mata ratón
-            td Gliricidia sepium (Jacq.) Kunth ex Walp
-            td Papilionaceae
-            td 0 – 1.200
-          tr
-            td Morera
-            td Morus alba L
-            td Moraceae
-            td 0 – 2.850
-          tr
-            td Nacedero, madre de agua y quiebrabarrigo
-            td Trichanthera gigantea (Bonpl.) Nees
-            td Acanthaceae
-            td 0 – 2.000
-          tr
-            td Pinocho, resucitado
-            td Hibiscus rosa-sinencis L
-            td Malvaceae
-            td 0 – 1.800
-          tr
-            td Pízamo, balú
-            td Erythrina fusca Lour
-            td Fabaceae
-            td 0 – 2.000
-          tr
-            td Pringamoza, ortigo
-            td Urera caracasana (Jacq.) Griseb
-            td Urticaceae
-            td 0 – 1.800
-          tr
-            td Ramio
-            td Boehmeria nivea (L) Gaud
-            td Urticaceae
-            td 1.000 – 1.800 
+    .row.justify-content-center.my-3
+      .col-lg-10.col-md-12
+        .titulo-sexto.color-acento-contenido.mb-3
+            h5 Tabla 2.
+            span <em>Especies arbóreas y arbustivas para bancos forrajeros</em>
+        .tabla-b
+          table.text-center
+            caption Fuente: Uribe, Zuluaga, Murgueitio, Valencia y cols (2011).
+            thead
+              tr
+                th(style="background: #DFE5AD; border: 1.2px solid #000000") Nombre común C
+                th(style="background: #DFC6B3; border: 1.2px solid #000000") Nombre científico
+                th(style="background: #DFC6B3; border: 1.2px solid #000000") Familia
+                th(style="background: #DFC6B3; border: 1.2px solid #000000") Piso térmico
+            tbody
+              tr
+                td Bore
+                td Xanthosoma sagittifolium Schott
+                td Araceae
+                td 0 – 1.800
+              tr
+                td Botón de oro
+                td Tithonia diversifolia (Hemsl.) Gray
+                td Asteraceae
+                td 0 – 2.400
+              tr
+                td Cachimbo, Cámbulo y poró
+                td Erythrina poeppigiana (Walp.) Cook
+                td Papilionaceae
+                td 600 – 1.400
+              tr
+                td Caña de azúcar
+                td Saccharum officinarum L
+                td Poaceae
+                td 0 – 2.300
+              tr
+                td Chachafruto
+                td Erytrhina edulis Triana
+                td Papilionaceae
+                td 1.400 – 2.500
+              tr
+                td Cratylia, Veranera
+                td Cratylia argentea(Desv.) Kuntze
+                td Papilionaceae
+                td 180 – 930
+              tr
+                td Gamboa
+                td Smallanthus	riparius (H.B.K.)
+                td Arastaceae
+                td 1.000 – 1.850
+              tr
+                td Maní forrajero
+                td Arachis pintoi Kaprov. & WC Gregory
+                td Papilionaceae
+                td 0 – 1.500
+              tr
+                td Mata ratón
+                td Gliricidia sepium (Jacq.) Kunth ex Walp
+                td Papilionaceae
+                td 0 – 1.200
+              tr
+                td Morera
+                td Morus alba L
+                td Moraceae
+                td 0 – 2.850
+              tr
+                td Nacedero, madre de agua y quiebrabarrigo
+                td Trichanthera gigantea (Bonpl.) Nees
+                td Acanthaceae
+                td 0 – 2.000
+              tr
+                td Pinocho, resucitado
+                td Hibiscus rosa-sinencis L
+                td Malvaceae
+                td 0 – 1.800
+              tr
+                td Pízamo, balú
+                td Erythrina fusca Lour
+                td Fabaceae
+                td 0 – 2.000
+              tr
+                td Pringamoza, ortigo
+                td Urera caracasana (Jacq.) Griseb
+                td Urticaceae
+                td 0 – 1.800
+              tr
+                td Ramio
+                td Boehmeria nivea (L) Gaud
+                td Urticaceae
+                td 1.000 – 1.800 
 
     .row.justify-content-center.my-3
-      .col-lg-6.mx-0.p-3.align-content-center(data-aos="fade-right")(style="background: #EFF2D5; border-radius: 20px")
+      .col-lg-6.mx-0.p-3.align-content-center.px-5(data-aos="fade-right")(style="background: #EFF2D5; border-radius: 20px")
         .row.justify-content-center
           .col-lg-10.align-content-center
             h5.mb-3 Selección del terreno para el establecimiento:
@@ -197,7 +198,7 @@
         ul.mb-0
           li
             span Tener abonos para la fertilización del cultivo. 
-      .col-lg-6.mx-0.p-3.align-content-center(data-aos="fade-right")(style="background: #DCF6FE; border-radius: 20px")
+      .col-lg-6.mx-0.p-3.align-content-center.px-5.my-3(data-aos="fade-right")(style="background: #DCF6FE; border-radius: 20px")
         .row.justify-content-center
           .col-lg-10.align-content-center
             h5.mb-3 Establecimiento del banco forrajero

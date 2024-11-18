@@ -22,26 +22,29 @@
             img(src='@/assets/curso/temas/tema3/img2.png', alt='Imagen decorativa')
           .col-lg-9
             p.my-3 Actualmente debido a los cambios culturales el cuidado de los animales junto con la inocuidad de los alimentos y el medio ambiente, se han convertido en temas relevantes para los consumidores, a la hora de analizar un sistema de producción alimentaria. Inclusive existen leyes que promueven su bienestar, un ejemplo de esto son las buenas prácticas ganaderas como herramienta de ayuda a las unidades productivas de ganado.
-    .row.mt-4.mb-4.align-items-center(data-aos="fade-left")
-      .col-auto
-        img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imagen decorativa')
-      .col.px-0
-        h3.mb-0 ¿Qué es el bienestar animal?
+    
+    .row.justify-content-center.my-3
+      .col-lg-10.col-md-12
+        .row.mt-4.mb-4.align-items-center(data-aos="fade-left")
+          .col-auto
+            img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imagen decorativa')
+          .col.px-0
+            h3.mb-0 ¿Qué es el bienestar animal?
 
-    p.my-3 Se puede decir que es el trato humanitario ofrecido a los animales por medio de  un conjunto de medidas que ayudan a reducir el estrés, el sufrimiento, el dolor durante la crianza, transporte, exhibición y sacrificio, entre otros.
+        p.my-3 Se puede decir que es el trato humanitario ofrecido a los animales por medio de  un conjunto de medidas que ayudan a reducir el estrés, el sufrimiento, el dolor durante la crianza, transporte, exhibición y sacrificio, entre otros.
 
-    h5.mt-4.green_icon(data-aos="fade-left") Beneficios de la implementación de las prácticas de bienestar animal
-      img.my-3(src='@/assets/curso/temas/tema3/img3.svg', alt='Imagen decorativa')
-        
-    p.my-3 Son muchos los beneficios que se logran cuando se aplican las buenas prácticas de bienestar animal en la finca a lo largo de la cadena agroindustrial de la carne. Las buenas prácticas ayudan a que funcione de forma integral el sistema de aseguramiento de la calidad en todos los eslabones de la cadena productiva de la carne que van desde la producción primaria hasta el lugar de faenado.
-    p.my-3 Los principales beneficios son:
+        h5.mt-4.green_icon(data-aos="fade-left") Beneficios de la implementación de las prácticas de bienestar animal
+          img.my-3(src='@/assets/curso/temas/tema3/img3.svg', alt='Imagen decorativa')
+            
+        p.my-3 Son muchos los beneficios que se logran cuando se aplican las buenas prácticas de bienestar animal en la finca a lo largo de la cadena agroindustrial de la carne. Las buenas prácticas ayudan a que funcione de forma integral el sistema de aseguramiento de la calidad en todos los eslabones de la cadena productiva de la carne que van desde la producción primaria hasta el lugar de faenado.
+        p.my-3 Los principales beneficios son:
         
     .row.justify-content-center.align-items-center.mb-3.p-4(data-aos="zoom-in")
       .col-lg-3.col-md-5.my-3
         figure
           img.my-3(src="@/assets/curso/temas/tema3/img4.svg")
       .col-lg-9
-        SlyderF.custom(columnas="col-lg-6 col-md-12")
+        SlyderF.custom(columnas="col-lg-6 col-md-6")
           .tarjeta.tarjeta--slyder.p-4.fnd-4
             img.my-3(src="@/assets/curso/temas/tema3/img5.svg")(style="max-width: 150px")
             p.mb-0 Al reducir el estrés del animal, el dolor por un manejo inadecuado se mitiga y se mejora el desarrollo y el crecimiento de los bovinos.
