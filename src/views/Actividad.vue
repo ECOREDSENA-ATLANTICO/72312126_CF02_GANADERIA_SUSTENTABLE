@@ -124,7 +124,7 @@ export default {
         {
           id: 9,
           texto:
-            'El tipo de cerca viva multiestrato No la técnica más usada, pues al combinarse diferentes especies arbóreas garantiza la variedad de productos para el consumo',
+            'El tipo de cerca viva multiestrato No la técnica más usada, pues al combinarse diferentes especies arbóreas garantiza la variedad de productos para el consumo.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [

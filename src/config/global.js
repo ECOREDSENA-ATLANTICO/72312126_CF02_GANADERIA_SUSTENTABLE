@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Forrajes y planificación ganadera',
     descripcionCurso:
-      'Los forrajes son una parte fundamental en la ganadería, ya que representan una fuente de alimentación esencial para los animales herbívoros, como vacas, ovejas y caballos. Se refieren a las plantas, ya sean frescas o secas, que se utilizan para alimentar al ganado',
+      'Los forrajes son una parte fundamental en la ganadería, ya que representan una fuente de alimentación esencial para los animales herbívoros, como vacas, ovejas y caballos. Se refieren a las plantas, ya sean frescas o secas, que se utilizan para alimentar al ganado.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -189,7 +189,7 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Miguel de Jesús ParedesMaestre',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
           centro:
             'Centro para el desarrollo agroecológico Y agroindustrial Sabanalarga - Regional Atlántico',

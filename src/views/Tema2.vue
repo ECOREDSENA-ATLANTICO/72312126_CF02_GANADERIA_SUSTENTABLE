@@ -35,13 +35,13 @@
             p <strong>Características de las especies arbóreas utilizadas en los bancos de proteína</strong>
               ul.mb-0
                 li
-                  span El arco nacedero: esta especie tiene un alto valor nutricional y la digestibilidad es tolerante.
+                  span El Arco nacedero: esta especie tiene un alto valor nutricional y la digestibilidad es tolerante.
               ul.mb-0
                 li
-                  span La mata ratón: es una especie que tolera los suelos pobres y que se puede dar entre los 0 y los 1500 metros.
+                  span La Mata ratón: es una especie que tolera los suelos pobres y que se puede dar entre los 0 y los 1500 metros.
               ul.mb-0
                 li
-                  span La leucaena: este forraje es rico en betacarotenos y fósforo, es una leguminosa muy estudiada en los trópicos.
+                  span La Leucaena: este forraje es rico en betacarotenos y fósforo, es una leguminosa muy estudiada en los trópicos.
     .row.justify-content-center.my-3
       .col-lg-10.col-md-10
         .row.justify-content-center
@@ -51,35 +51,35 @@
                 figure
                   img(src="@/assets/curso/temas/tema2/img6.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Se le llaman bancos forrajeros mixtos a los cultivos que se asocian como especies arbóreas, arbustivas de alto valor nutricional y plantas herbáceas. Esta técnica se hace con el fin de sacar forrajes de buena calidad en cuanto a proteínas, carbohidratos, vitaminas, minerales y fibra.
+                p.mb-0.pe-3 Se le llaman bancos forrajeros mixtos a los cultivos que se asocian como especies arbóreas, arbustivas de alto valor nutricional y plantas herbáceas. Esta técnica se hace con el fin de sacar forrajes de buena calidad en cuanto a proteínas, carbohidratos, vitaminas, minerales y fibra.
           .col-lg-12.crd--avatarHorizontal-left-bgr4.p-3.mb-3.m-auto
             .row.align-items-center.top
               .col-auto(style="z-index:1")
                 figure
                   img(src="@/assets/curso/temas/tema2/img6.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Los forrajes que están producidos en el banco son cortados y luego son suministrados a los bovinos durante todos los meses del año, estos se pueden suministrar frescos o secos en henos o en ensilajes.
+                p.mb-0.pe-3 Los forrajes que están producidos en el banco son cortados y luego son suministrados a los bovinos durante todos los meses del año, estos se pueden suministrar frescos o secos en henos o en ensilajes.
           .col-lg-12.crd--avatarHorizontal-left-bgr4.p-3.mb-3.m-auto
             .row.align-items-center.top
               .col-auto(style="z-index:1")
                 figure
                   img(src="@/assets/curso/temas/tema2/img6.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Los bancos mixtos requieren para su cultivo un área pequeña, pero demandan mucha mano de obra, la ventaja más importante de tener en un predio los bancos forrajeros es que ayudan a conservar los nacimientos de las quebradas y disminuye el impacto que genera el ganado sobre los bosques y zonas frágiles.
+                p.mb-0.pe-3 Los bancos mixtos requieren para su cultivo un área pequeña, pero demandan mucha mano de obra, la ventaja más importante de tener en un predio los bancos forrajeros es que ayudan a conservar los nacimientos de las quebradas y disminuye el impacto que genera el ganado sobre los bosques y zonas frágiles.
           .col-lg-12.crd--avatarHorizontal-left-bgr4.p-3.mb-3.m-auto
             .row.align-items-center.top
               .col-auto(style="z-index:1")
                 figure
                   img(src="@/assets/curso/temas/tema2/img6.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Se les dice bancos proteicos cuando los forrajes cultivados tienen un contenido de proteína mayor a un 15% y se les denomina energéticos cuando los forrajes tienen alto contenido de carbohidratos que aportan mucha energía al animal, los cuales se encuentran en la caña de azúcar y en los pastos de corte.
+                p.mb-0.pe-3 Se les dice bancos proteicos cuando los forrajes cultivados tienen un contenido de proteína mayor a un 15% y se les denomina energéticos cuando los forrajes tienen alto contenido de carbohidratos que aportan mucha energía al animal, los cuales se encuentran en la caña de azúcar y en los pastos de corte.
           .col-lg-12.crd--avatarHorizontal-left-bgr4.p-3.mb-3.m-auto
             .row.align-items-center.top
               .col-auto(style="z-index:1")
                 figure
                   img(src="@/assets/curso/temas/tema2/img6.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 En los bancos mixtos se encuentran especies que tienen alto contenido de proteínas y de energía, esto hace que sea una muy buena alternativa de alimentación para que los animales tengan una buena nutrición. Según las condiciones bioclimáticas se pueden hacer diferentes combinaciones de especies para establecer el banco forrajero.
+                p.mb-0.pe-3 En los bancos mixtos se encuentran especies que tienen alto contenido de proteínas y de energía, esto hace que sea una muy buena alternativa de alimentación para que los animales tengan una buena nutrición. Según las condiciones bioclimáticas se pueden hacer diferentes combinaciones de especies para establecer el banco forrajero.
 
     .row.justify-content-center.my-3
       .col-lg-10.col-md-12
@@ -87,98 +87,98 @@
             h5 Tabla 2.
             span <em>Especies arbóreas y arbustivas para bancos forrajeros</em>
         .tabla-b
-          table.text-center
-            caption Fuente: Uribe, Zuluaga, Murgueitio, Valencia y cols (2011).
+          table
+            caption Fuente: Uribe, Zuluaga, Murgueitio, Valencia y  Cols (2011).
             thead
               tr
-                th(style="background: #DFE5AD; border: 1.2px solid #000000") Nombre común C
-                th(style="background: #DFC6B3; border: 1.2px solid #000000") Nombre científico
-                th(style="background: #DFC6B3; border: 1.2px solid #000000") Familia
-                th(style="background: #DFC6B3; border: 1.2px solid #000000") Piso térmico
+                th.text-center(style="background: #DFE5AD; border: 1.2px solid #000000") Nombre común C
+                th.text-center(style="background: #DFC6B3; border: 1.2px solid #000000") Nombre científico
+                th.text-center(style="background: #DFC6B3; border: 1.2px solid #000000") Familia
+                th.text-center(style="background: #DFC6B3; border: 1.2px solid #000000") Piso térmico
             tbody
               tr
                 td Bore
                 td Xanthosoma sagittifolium Schott
                 td Araceae
-                td 0 – 1.800
+                td 0 – 1.800 Mts. Piso térmico: cálido.
               tr
                 td Botón de oro
                 td Tithonia diversifolia (Hemsl.) Gray
                 td Asteraceae
-                td 0 – 2.400
+                td 0 – 2.400 Mts. Piso térmico: frío.
               tr
                 td Cachimbo, Cámbulo y poró
                 td Erythrina poeppigiana (Walp.) Cook
                 td Papilionaceae
-                td 600 – 1.400
+                td 600 – 1.400 Mts. Piso térmico: cálido.
               tr
                 td Caña de azúcar
                 td Saccharum officinarum L
                 td Poaceae
-                td 0 – 2.300
+                td 0 – 2.300 Mts. Piso térmico: frío.
               tr
                 td Chachafruto
                 td Erytrhina edulis Triana
                 td Papilionaceae
-                td 1.400 – 2.500
+                td 1.400 – 2.500 Mts. Piso térmico: frío.
               tr
                 td Cratylia, Veranera
                 td Cratylia argentea(Desv.) Kuntze
                 td Papilionaceae
-                td 180 – 930
+                td 180 – 930.  MtsPiso térmico: cálido.        
               tr
                 td Gamboa
                 td Smallanthus	riparius (H.B.K.)
                 td Arastaceae
-                td 1.000 – 1.850
+                td 1.000 – 1.850 Mts. Piso térmico: templado.
               tr
                 td Maní forrajero
                 td Arachis pintoi Kaprov. & WC Gregory
                 td Papilionaceae
-                td 0 – 1.500
+                td 0 – 1.500 Mts. Piso térmico: cálido.
               tr
                 td Mata ratón
                 td Gliricidia sepium (Jacq.) Kunth ex Walp
                 td Papilionaceae
-                td 0 – 1.200
+                td 0 – 1.200 Mts. Piso térmico: cálido.
               tr
                 td Morera
                 td Morus alba L
                 td Moraceae
-                td 0 – 2.850
+                td 0 – 2.850 Mts. Piso térmico: frío.
               tr
-                td Nacedero, madre de agua y quiebrabarrigo
+                td Nacedero, Madre de agua y Quiebrabarrigo
                 td Trichanthera gigantea (Bonpl.) Nees
                 td Acanthaceae
-                td 0 – 2.000
+                td 0 – 2.000 Mts. Piso térmico: templado. 
               tr
-                td Pinocho, resucitado
+                td Pinocho, Resucitado
                 td Hibiscus rosa-sinencis L
                 td Malvaceae
-                td 0 – 1.800
+                td 0 – 1.800 Mts. Piso térmico: templado. 
               tr
-                td Pízamo, balú
+                td Pízamo, Balú
                 td Erythrina fusca Lour
                 td Fabaceae
-                td 0 – 2.000
+                td 0 – 2.000 Mts. Piso térmico: templado. 
               tr
-                td Pringamoza, ortigo
+                td Pringamoza, Ortigo
                 td Urera caracasana (Jacq.) Griseb
                 td Urticaceae
-                td 0 – 1.800
+                td 0 – 1.800 Mts. Piso térmico: templado. 
               tr
                 td Ramio
                 td Boehmeria nivea (L) Gaud
                 td Urticaceae
-                td 1.000 – 1.800 
+                td 1.000 – 1.800 Mts. Piso térmico: templado.  
 
     .row.justify-content-center.my-3
-      .col-lg-6.mx-0.p-3.align-content-center.px-5(data-aos="fade-right")(style="background: #EFF2D5; border-radius: 20px")
+      .col-lg-6.mx-0.p-3.align-content-center.px-5.my-3(data-aos="fade-right")(style="background: #EFF2D5; border-radius: 20px")
         .row.justify-content-center
           .col-lg-10.align-content-center
             h5.mb-3 Selección del terreno para el establecimiento:
           .col-lg-2.col-md-3
-            img.my-3(src='@/assets/curso/temas/tema2/img7.svg', alt='Imagen decorativa')
+            img.my-3(src='@/assets/curso/temas/tema2/img7.svg', alt='Imagen decorativa')(style="height: 60px; width: 60px")
         p.my-1 Al elegir un área para sembrar el banco forrajero tenga en cuenta lo siguiente:
         ul.mb-0
           li
@@ -203,7 +203,7 @@
           .col-lg-10.align-content-center
             h5.mb-3 Establecimiento del banco forrajero
           .col-lg-2.col-md-3
-            img.my-3(src='@/assets/curso/temas/tema2/img8.svg', alt='Imagen decorativa')
+            img.my-3(src='@/assets/curso/temas/tema2/img8.svg', alt='Imagen decorativa')(style="height: 60px; width: 60px")
         p.my-1 Para el establecimiento del banco forrajero se deben seguir las siguientes recomendaciones:
         ul.mb-1
           li

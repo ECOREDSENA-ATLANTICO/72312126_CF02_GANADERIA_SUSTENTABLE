@@ -82,10 +82,38 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1.
           span <em>Bienestar animal</em>
-        figure
-          img.my-3(src='@/assets/curso/temas/tema3/img10.svg', alt='Imagen decorativa')
-        figcaption Nota. SENA.
+        ImagenInfografica.color-primario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema3/img10.svg', alt='Texto que describa la imagen')
+              figcaption Nota: Sena (2024).
 
+          .tarjeta.color-acento-botones.p-3(x="15%" y="20%" numero="1")
+            .h5.mb-2 Alineación del animal
+            p Es importante ubicar al animal en camino hacia el proceso de producción industrial, permitiendo que se adapte lo mejor posible. 
+
+          .tarjeta.color-acento-botones.p-3(x="55%" y="15%" numero="2")
+            .h5.mb-2 Corte del animal
+            p Luego de la muerte del animal, se realiza un proceso de corte y organización de desperdicios de la carne en el proceso productivo. 
+
+          .tarjeta.color-acento-botones.p-3(x="75%" y="15%" numero="3")
+            .h5.mb-2 Limpieza del animal
+            p Es clave igualmente realizar un proceso de limpieza efectivo de la carne del animal para eliminar impurezas y lograr estándares efectivos de producción.  
+
+          .tarjeta.color-acento-botones.p-3(x="25%" y="55%" numero="4")
+            .h5.mb-2 Producción de la carne
+            p Para el proceso productivo se utilizan diferentes tipos de máquinas como picadoras de carne, cutter de carne, mezcladoras y embutidoras. 
+
+          .tarjeta.color-acento-botones.p-3(x="57%" y="55%" numero="5")
+            .h5.mb-2 Selección y embalaje de la carne
+            p La selección y embalaje de la carne es importante que cumpla con normas sanitarias y adecuados empaques con materiales resistentes.  
+
+          .tarjeta.color-acento-botones.p-3(x="88%" y="55%" numero="6")
+            .h5.mb-2 Comercialización de la carne
+            p La comercialización en carnicerías, supermercados y otros lugares es clave para el consumo humano.  
+
+
+        
     .row.justify-content-center.my-3
       .col-lg-3.p-0.my-3(style="background: #DFC6B3; border-radius: 20px")
         figure

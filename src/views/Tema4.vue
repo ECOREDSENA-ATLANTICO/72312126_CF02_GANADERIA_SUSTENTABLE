@@ -79,7 +79,7 @@
           h5 Figura 2.
           span <em>Zona de fuga y punto de balance</em>
         figure
-          img.my-3(src='@/assets/curso/temas/tema4/img8.svg', alt='Imagen decorativa')
+          img.my-3(src='@/assets/curso/temas/tema4/img8.svg', alt='Se muestra una figura coninteracción de componentes.')
         figcaption Fuente. ICA (2006).
 
     .row.justify-content-center.my-3.me-1
@@ -148,14 +148,14 @@
                 figure
                   img(src="@/assets/curso/temas/tema4/img15.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 La superficie de carga y las paredes de las jaulas deben estar bien ensambladas sin dejar superficies cortantes ni grietas.
+                p.mb-0.pe-3 La superficie de carga y las paredes de las jaulas deben estar bien ensambladas sin dejar superficies cortantes ni grietas.
           .col-lg-6.crd--avatarHorizontal-left-bgr1.p-3.mb-3.m-auto
             .row.align-items-center.top
               .col-auto(style="z-index:1")
                 figure
                   img(src="@/assets/curso/temas/tema4/img15.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Las paredes deben ser de 1,8 metros de altura para bovinos y de 0,6 metros para ganado menor.
+                p.mb-0.pe-3 Las paredes deben ser de 1,8 metros de altura para bovinos y de 0,6 metros para ganado menor.
         .row.justify-content-center
           .col-lg-6.crd--avatarHorizontal-left-bgr1.p-3.mb-3.m-auto
             .row.align-items-center.top
@@ -163,14 +163,14 @@
                 figure
                   img(src="@/assets/curso/temas/tema4/img15.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Deben ser fáciles de limpiar y desinfectar.
+                p.mb-0.pe-3 Deben ser fáciles de limpiar y desinfectar.
           .col-lg-6.crd--avatarHorizontal-left-bgr1.p-3.mb-3.m-auto
             .row.align-items-center.top
               .col-auto(style="z-index:1")
                 figure
                   img(src="@/assets/curso/temas/tema4/img15.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Los vehículos deben disponer de suficiente ventilación a unos 0,6 u 0,8 metros sobre la superficie de carga.
+                p.mb-0.pe-3 Los vehículos deben disponer de suficiente ventilación a unos 0,6 u 0,8 metros sobre la superficie de carga.
         .row.justify-content-center
           .col-lg-12.crd--avatarHorizontal-left-bgr1.p-3.mb-3.m-auto
             .row.align-items-center.top
@@ -178,7 +178,7 @@
                 figure
                   img(src="@/assets/curso/temas/tema4/img15.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.pe-1.mb-0 Cuando se transportan bovinos se debe respetar la densidad de la carga del vehículo, lo que favorece a una buena ventilación que ayuda a disminuir el estrés y a minimizar el riesgo de la morbilidad del animal durante el viaje, disminuyendo las pérdidas.
+                p.pe-3.mb-0 Cuando se transportan bovinos se debe respetar la densidad de la carga del vehículo, lo que favorece a una buena ventilación que ayuda a disminuir el estrés y a minimizar el riesgo de la morbilidad del animal durante el viaje, disminuyendo las pérdidas.
 
     .row.justify-content-center.my-3
       .col-lg-10
@@ -267,6 +267,12 @@
           ul.m-0
             li 
               span No representar riesgo alguno para el operador, ya sea por efecto directo de su aplicación o por acciones defensivas de los animales. 
+    h5.mt-4.green_icon(data-aos="fade-left") Desangrado
+      img.my-3(src='@/assets/curso/temas/tema3/img3.svg', alt='Imagen decorativa')
+
+    p.my-3 El desangrado se produce al seleccionar los vasos sanguíneos a la entrada del pecho (yugular y carótida), es el proceso de matanza propiamente dicho, provoca la muerte como consecuencia del fallo cardiaco inducido por la hipovolemia.
+    p.my-3 La eliminación del mayor volumen de sangre además de provocar una muerte rápida al animal reviste gran importancia en la presentación comercial de la carne en su higiene (la sangre favorece el crecimiento microbiano) y en la propagación de su periodo de conservación, así como de productos que sean elaborados con ella.
+    p.my-3 El tiempo transcurrido entre la insensibilización debe reducirse al mínimo para que se pueda aprovechar al máximo el efecto de aturdimiento y al mismo tiempo evitar que las hormonas liberadas por el estrés se disminuyan por todo el cuerpo mediante la circulación afectando la calidad de la carne.
 
 
 </template>

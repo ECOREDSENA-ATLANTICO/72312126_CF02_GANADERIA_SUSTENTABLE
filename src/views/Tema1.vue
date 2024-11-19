@@ -107,21 +107,21 @@
                 figure
                   img(src="@/assets/curso/temas/tema1/img13.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 En los sistemas silvopastoriles actúan las plantas que son las que producen y los animales que son los que consumen. Las especies más conocidas que actúan como productores son los árboles, pastos, leguminosas y especies herbáceas. Los consumidores en su mayoría son animales herbívoros.
+                p.mb-0.pe-3 En los sistemas silvopastoriles actúan las plantas que son las que producen y los animales que son los que consumen. Las especies más conocidas que actúan como productores son los árboles, pastos, leguminosas y especies herbáceas. Los consumidores en su mayoría son animales herbívoros.
           .col-lg-12.crd--avatarHorizontal-left-bgr4.p-3.mb-3.m-auto
             .row.align-items-center.top
               .col-auto(style="z-index:1")
                 figure
                   img(src="@/assets/curso/temas/tema1/img13.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Algunas interacciones que se dan en la entrada del sistema es el clima con el suelo que disminuye las propiedades de este recurso, lo cual afecta las pasturas, ya que este es su medio de sostén y de él depende su desarrollo. El clima también puede influir en los animales, ya que el viento y la lluvia afectan los hábitos del animal en cuanto a la alimentación.
+                p.mb-0.pe-3 Algunas interacciones que se dan en la entrada del sistema es el clima con el suelo que disminuye las propiedades de este recurso, lo cual afecta las pasturas, ya que este es su medio de sostén y de él depende su desarrollo. El clima también puede influir en los animales, ya que el viento y la lluvia afectan los hábitos del animal en cuanto a la alimentación.
           .col-lg-12.crd--avatarHorizontal-left-bgr4.p-3.mb-3.m-auto
             .row.align-items-center.top
               .col-auto(style="z-index:1")
                 figure
                   img(src="@/assets/curso/temas/tema1/img13.svg", alt="", width= "60px", height="60px")
               .col(style="z-index:1")
-                p.mb-0 Las salidas del sistema en este caso serían animales en edad adulta o crías, además en el sistema también hay salida de productos secundarios como maderas, forrajes, frutos que se pueden vender o ser consumidos.
+                p.mb-0.pe-3 Las salidas del sistema en este caso serían animales en edad adulta o crías, además en el sistema también hay salida de productos secundarios como maderas, forrajes, frutos que se pueden vender o ser consumidos.
 
         .row.mt-5.mb-4.align-items-center(data-aos="fade-left")
           .col-auto
@@ -145,7 +145,7 @@
               img.my-3(src='@/assets/curso/temas/tema1/img16.svg', alt='Imagen decorativa')
             .titulo-sexto.color-acento-contenido.mb-3
                 h5 Tabla 1.
-                span <em>Beneficios finca y ambientales</em>
+                span <em>Beneficios para la finca y ambientales</em>
             .tabla-b
               table.text-center
                 caption Fuente: Villanueva, Ibrahim, Torres, Casasola y Arguedas (2005).
@@ -179,7 +179,7 @@
     h5.my-3.green_icon(data-aos="fade-left") Tipos de cercas vivas
       img.my-3(src='@/assets/curso/temas/tema1/img16.svg', alt='Imagen decorativa')
 
-    p.my-3 Las cercas vivas pueden clasificarse en simples o multiestratos. Las cercas simples están compuestas por especies que pueden ser mata ratón, guayabo común, ciruela de huesito (Spondias spp), pachote (Pachira quinata), estos árboles se pueden podar cada dos años. Los multiestratos están formados por dos o tres especies para que generen mayor cobertura en un año, pueden ser maderables, frutales, forrajeras, ornamentales y medicinales. Estos árboles ayudan a albergar especies silvestres que se refugian en ellos, casi siempre son de dos alturas de árboles.
+    p.my-3 Las cercas vivas pueden clasificarse en simples o multiestratos. Las cercas simples están compuestas por especies que pueden ser Mata ratón, Guayabo común, Ciruela de huesito (Spondias spp), Pachote (Pachira quinata), estos árboles se pueden podar cada dos años. Los multiestratos están formados por dos o tres especies para que generen mayor cobertura en un año, pueden ser maderables, frutales, forrajeras, ornamentales y medicinales. Estos árboles ayudan a albergar especies silvestres que se refugian en ellos, casi siempre son de dos alturas de árboles.
     
     .row.justify-content-center.my-3
       .col-lg-6.mx-0.p-3.px-5.my-3(data-aos="fade-right")(style="background: #EFE2D9; border-radius: 20px")
@@ -189,7 +189,7 @@
           .col-lg-2.col-md-3
             img.my-3(src='@/assets/curso/temas/tema1/img17.svg', alt='Imagen decorativa')(style="height: 60px; width: 60px")
         p El tipo de cerca viva multiestrato es la técnica más usada, pues al combinarse diferentes especies arbóreas garantiza la variedad de productos para el consumo, además ofrece un lugar seguro para nidos de aves y proporciona alimentos para todo el año, sin embargo, en una finca se pueden combinar cercas vivas simples con multiestratos para que haya una reducción de la competencia con forrajes y se genere un ingreso adicional.
-      .col-lg-6.mx-0.p-3.px-5(data-aos="fade-right")(style="background: #DFC6B3; border-radius: 20px")
+      .col-lg-6.mx-0.p-3.px-5.my-3(data-aos="fade-right")(style="background: #DFC6B3; border-radius: 20px")
         .row.justify-content-center
           .col-lg-10.align-content-center
             h5.mb-3 ¿Qué especies seleccionar para las cercas vivas?
