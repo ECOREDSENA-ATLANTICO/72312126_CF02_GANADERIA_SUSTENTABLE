@@ -22,7 +22,7 @@ export default {
         {
           id: 1,
           texto:
-            'La planificación ganadera es importante para la gestión ganadera',
+            'La planificación ganadera es importante para la gestión ganadera.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -34,7 +34,7 @@ export default {
         },
         {
           id: 2,
-          texto: 'Maximizar la producción no es clave para los ganaderos',
+          texto: 'Maximizar la producción no es clave para los ganaderos.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -47,7 +47,7 @@ export default {
         {
           id: 3,
           texto:
-            'El tapizado de los bovinos se realiza para extraer los cuernos de los bovinos',
+            'El tapizado de los bovinos se realiza para extraer los cuernos de los bovinos.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -60,7 +60,7 @@ export default {
         {
           id: 4,
           texto:
-            'La ganadería en Colombia trata el concepto del bienestar animal',
+            'La ganadería en Colombia trata el concepto del bienestar animal.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -72,7 +72,7 @@ export default {
         },
         {
           id: 5,
-          texto: 'Los forrajes son parte fundamental de la aviación ',
+          texto: 'Los forrajes son parte fundamental de la aviación.',
           imagen: require('@/assets/actividad/imagen5.svg'),
           barajarRespuestas: true,
           opciones: [
@@ -98,7 +98,7 @@ export default {
         {
           id: 7,
           texto:
-            'Se les dice bancos proteicos cuando los forrajes cultivados tienen un contenido de proteína mayor a un 15 %',
+            'Se les dice bancos proteicos cuando los forrajes cultivados tienen un contenido de proteína mayor a un 15 %.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
