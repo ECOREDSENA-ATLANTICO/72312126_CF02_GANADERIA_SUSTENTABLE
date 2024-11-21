@@ -13,8 +13,8 @@
         p.my-3 Se pueden cultivar tres tipos de bancos de proteína:
       .col-lg-4.col-md-5.align-content-center(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 3.
-            span <em>Cercas</em>
+            h5 Figura 4.
+            span <em>Banco de proteínas</em>
         figure
           img.mt-3(src='@/assets/curso/temas/tema2/img9.svg', alt='Se muestra una figura con banco de proteinas.')
         figcaption Nota. SENA (2024).
@@ -37,10 +37,11 @@
 
     .row.justify-content-center.my-3(data-aos="flip-up")
       .col-lg-10.col-md-12
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 5.
+          span <em>Bancos mixtos forrajeros.</em>
         .row.fnd-img-1
-          .col-lg-3.col-md-8.align-content-center
-            img(src="@/assets/curso/temas/tema2/img5.png", alt="imagen decorativa")
-          .col-lg-7.p-4
+          .col-lg-9.p-4
             p <strong>Características de las especies arbóreas utilizadas en los bancos de proteína</strong>
               ul.mb-0
                 li
@@ -51,6 +52,9 @@
               ul.mb-0
                 li
                   span La Leucaena: este forraje es rico en betacarotenos y fósforo, es una leguminosa muy estudiada en los trópicos.
+          .col-lg-3.col-md-8.align-content-center(style="justify-content: end")
+            img(src="@/assets/curso/temas/tema2/img5.png", alt="se muestra una figura con bancos mixtos forrajeros.")
+        figcaption Fuente: SENA (2024).
     .row.justify-content-center.my-3
       .col-lg-10.col-md-10
         .row.justify-content-center

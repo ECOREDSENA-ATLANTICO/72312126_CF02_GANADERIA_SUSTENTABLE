@@ -33,6 +33,40 @@
 
         p.my-3 Se puede decir que es el trato humanitario ofrecido a los animales por medio de  un conjunto de medidas que ayudan a reducir el estrés, el sufrimiento, el dolor durante la crianza, transporte, exhibición y sacrificio, entre otros.
 
+    .row.justify-content-center.my-3
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 6.
+          span <em>Bienestar animal</em>
+        ImagenInfografica.color-primario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema3/img10.svg', alt='Se muestra una figura con consecuencias del maltrato y prácticas inadecuadas de bienestar animal.')
+              figcaption Nota: Sena (2024).
+
+          .tarjeta.color-acento-botones.p-3(x="15%" y="20%" numero="1")
+            .h5.mb-2 Alineación del animal
+            p Es importante ubicar al animal en camino hacia el proceso de producción industrial, permitiendo que se adapte lo mejor posible. 
+
+          .tarjeta.color-acento-botones.p-3(x="55%" y="15%" numero="2")
+            .h5.mb-2 Corte del animal
+            p Luego de la muerte del animal, se realiza un proceso de corte y organización de desperdicios de la carne en el proceso productivo. 
+
+          .tarjeta.color-acento-botones.p-3(x="75%" y="15%" numero="3")
+            .h5.mb-2 Limpieza del animal
+            p Es clave igualmente realizar un proceso de limpieza efectivo de la carne del animal para eliminar impurezas y lograr estándares efectivos de producción.  
+
+          .tarjeta.color-acento-botones.p-3(x="25%" y="55%" numero="4")
+            .h5.mb-2 Producción de la carne
+            p Para el proceso productivo se utilizan diferentes tipos de máquinas como picadoras de carne, cutter de carne, mezcladoras y embutidoras. 
+
+          .tarjeta.color-acento-botones.p-3(x="57%" y="55%" numero="5")
+            .h5.mb-2 Selección y embalaje de la carne
+            p La selección y embalaje de la carne es importante que cumpla con normas sanitarias y adecuados empaques con materiales resistentes.  
+
+          .tarjeta.color-acento-botones.p-3(x="88%" y="55%" numero="6")
+            .h5.mb-2 Comercialización de la carne
+            p La comercialización en carnicerías, supermercados y otros lugares es clave para el consumo humano.  
         h5.mt-4.green_icon(data-aos="fade-left") Beneficios de la implementación de las prácticas de bienestar animal
           img.my-3(src='@/assets/curso/temas/tema3/img3.svg', alt='Imagen decorativa')
             
@@ -73,46 +107,15 @@
     h5.mt-4.green_icon(data-aos="fade-left") Efectos del estrés sobre la calidad de la carne
       img.my-3(src='@/assets/curso/temas/tema3/img3.svg', alt='Imagen decorativa')
     .row.justify-content-center
-      .col-lg-7  
+      .col-lg-7.align-content-center
         p.my-3 Cuando el animal cae en estrés antes de la matanza se agota el glucógeno muscular y esto da como resultado un pH final de la carne alto superior de 6,0 y por lo tanto las proteínas se encuentran fuera de su punto isoeléctrico, por lo cual absorbe gran cantidad de agua que le da a la carne una apariencia superficial seca. Adicionalmente, el alto valor del pH favorece el crecimiento de las bacterias y la vida útil de la carne se ve reducida.
         p.my-3 Este tipo de carnes producidas bajo estrés se les denomina oscuras, firmes y seca o DFD que es la sigla en inglés.
       .col-lg-5.col-md-8 
-        img.my-3(src='@/assets/curso/temas/tema3/img9.png', alt='Imagen decorativa')
-    
-    .row.justify-content-center.my-3
-      .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 4.
-          span <em>Bienestar animal</em>
-        ImagenInfografica.color-primario
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/temas/tema3/img10.svg', alt='Se muestra una figura con consecuencias del maltrato y prácticas inadecuadas de bienestar animal.')
-              figcaption Nota: Sena (2024).
-
-          .tarjeta.color-acento-botones.p-3(x="15%" y="20%" numero="1")
-            .h5.mb-2 Alineación del animal
-            p Es importante ubicar al animal en camino hacia el proceso de producción industrial, permitiendo que se adapte lo mejor posible. 
-
-          .tarjeta.color-acento-botones.p-3(x="55%" y="15%" numero="2")
-            .h5.mb-2 Corte del animal
-            p Luego de la muerte del animal, se realiza un proceso de corte y organización de desperdicios de la carne en el proceso productivo. 
-
-          .tarjeta.color-acento-botones.p-3(x="75%" y="15%" numero="3")
-            .h5.mb-2 Limpieza del animal
-            p Es clave igualmente realizar un proceso de limpieza efectivo de la carne del animal para eliminar impurezas y lograr estándares efectivos de producción.  
-
-          .tarjeta.color-acento-botones.p-3(x="25%" y="55%" numero="4")
-            .h5.mb-2 Producción de la carne
-            p Para el proceso productivo se utilizan diferentes tipos de máquinas como picadoras de carne, cutter de carne, mezcladoras y embutidoras. 
-
-          .tarjeta.color-acento-botones.p-3(x="57%" y="55%" numero="5")
-            .h5.mb-2 Selección y embalaje de la carne
-            p La selección y embalaje de la carne es importante que cumpla con normas sanitarias y adecuados empaques con materiales resistentes.  
-
-          .tarjeta.color-acento-botones.p-3(x="88%" y="55%" numero="6")
-            .h5.mb-2 Comercialización de la carne
-            p La comercialización en carnicerías, supermercados y otros lugares es clave para el consumo humano.  
+          h5 Figura 7.
+          span <em>Consecuencias del maltrato y prácticas inadecuadas de bienestar animal.</em>
+        img(src='@/assets/curso/temas/tema3/img9.png', alt='Se muestra una figura con consecuencias del maltrato y prácticas inadecuadas de bienestar animal.')
+        figcaption Fuente: SENA (2024).
 
 
         

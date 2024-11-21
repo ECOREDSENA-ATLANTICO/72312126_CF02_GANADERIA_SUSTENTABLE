@@ -76,7 +76,7 @@
     .row.justify-content-center.my-4.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 5.
+          h5 Figura 8.
           span <em>Zona de fuga y punto de balance</em>
         figure
           img.my-3(src='@/assets/curso/temas/tema4/img8.svg', alt='Se muestra una figura coninteracción de componentes.')

@@ -16,7 +16,7 @@
       .col-lg-4.col-md-8.align-content-center
         .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 1.
-            span <em>Bienestar animal</em>
+            span <em>Sistema silvopastoril</em>
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')(style="height: 300px")
         figcaption Fuente: SENA (2024).
@@ -79,11 +79,13 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen decorativa')
 
-    .bloque-texto-g.p-3.p-sm-4.p-md-5.my-3(data-aos="flip-up")(style="background: #DFC6B3")
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img11.png')})`}"
-      )
-      .bloque-texto-g__texto.p-3(data-aos="fade-left")(style="background: #DFC6B3")
+    .titulo-sexto.color-acento-contenido.mb-3
+      h5 Figura 2.
+      span <em>Interacción de componentes.</em>
+    .bloque-texto-g.bloque-texto-g--inverso.p-3.p-sm-4.p-md-5(style="background: #DFC6B3")
+      .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img11.png')})`}")
+
+      .bloque-texto-g__texto.p-4(data-aos="fade-right")(style="background: #DFC6B3")
         p.mb-3 <strong>Para el establecimiento de un sistema silvopastoril se debe tener en cuenta lo siguiente en relación con la especie arbórea:</strong><br>
           ul.mb-0
             li
@@ -100,7 +102,9 @@
           ul.mb-0
             li
               span Que en lo posible las especies a seleccionar sean árboles nativos de la zona donde se establezca el sistema ganadero.<br>
+    figcaption Fuente: SENA (2024).
 
+    
     .row.justify-content-center.my-3
       .col-lg-10.col-md-10
         .row.justify-content-center
@@ -139,7 +143,7 @@
             p.my-2 La distancia que debe haber entre un árbol y otro puede variar, pero lo más aconsejable es de uno a tres metros.
           .col-lg-3.col-md-6.align-content-center(data-aos="fade-left")
             .titulo-sexto.color-acento-contenido.mb-3
-                h5 Figura 2.
+                h5 Figura 3.
                 span <em>Cercas</em>
             figure
               img.mt-3(src='@/assets/curso/temas/tema1/img14.png', alt='Se muestra una figura con las cercas.')
