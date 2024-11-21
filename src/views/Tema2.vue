@@ -7,13 +7,13 @@
         span 2
       h1 Banco de proteínas
     .row.justify-content-center.my-3
-      .col-lg-8.align-content-center
+      .col-lg-8.col-md-7.align-content-center
         p.mb-2 Los bancos de proteínas son cultivos intensivos de varias especies de leguminosas, estos sirven de alimento para el ganado, son resistentes a las podas y tienen gran capacidad de rebrote. 
         p.my-3 El forraje que se da en los bancos de proteínas se emplea como suplemento en la dieta del ganado alimentado bajo una dieta de pasto.
         p.my-3 Se pueden cultivar tres tipos de bancos de proteína:
-      .col-lg-4.col-md-6.align-content-center(data-aos="fade-left")
+      .col-lg-4.col-md-5.align-content-center(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 2.
+            h5 Figura 3.
             span <em>Cercas</em>
         figure
           img.mt-3(src='@/assets/curso/temas/tema2/img9.svg', alt='Se muestra una figura con banco de proteinas.')

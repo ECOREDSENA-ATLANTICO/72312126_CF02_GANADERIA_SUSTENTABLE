@@ -82,7 +82,7 @@
     .row.justify-content-center.my-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 3.
+          h5 Figura 4.
           span <em>Bienestar animal</em>
         ImagenInfografica.color-primario
           template(v-slot:imagen)
