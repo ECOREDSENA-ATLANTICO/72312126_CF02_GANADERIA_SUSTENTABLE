@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    p.mb-3(data-aos="flip-up") El componente formativo generalidades de la ganadería sustentable, se enfoca en describir los mecanismos más utilizados para que la ganadería sustentable para que sea más productiva y se conserven los recursos naturales de manera eficiente, reduciendo el impacto sobre el medio ambiente. Posteriormente, se describirán las etapas para realizar un plan de finca, que incluye el diagnóstico, el diseño, la ejecución y la evaluación del grado de las acciones ejecutadas en el plan de finca. Bienvenido a este componente formativo:
+    p.mb-3(data-aos="flip-up") El componente formativo forrajes y planificación ganadera se enfoca en describir los sistemas silvopastoriles, los bancos de proteínas, los bancos mixtos de forrajes y su importancia como alternativas de producción ganadera. Bienvenido a este componente formativo:
 
     .video
       iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

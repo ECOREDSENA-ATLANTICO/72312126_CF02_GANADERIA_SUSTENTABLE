@@ -63,20 +63,20 @@
       .col-lg-8
         SlyderF.custom(columnas="col-lg-6 col-md-6")
           .tarjeta.tarjeta--slyder.p-4.fnd-4
-            p.mb-0 <b>Fijación de los gases:</b> lograr la fijación de los gases de dióxido de carbono a través de los árboles y arbustos, pues estos en su proceso natural lo absorben y transforman en oxígeno. Por tal razón funcionan como sumideros de carbono, ya que depositan el gas en su tejido leñoso o en el suelo, evitando que se eleve a la atmósfera y se caliente.	 
+            p.mb-0 <b>Unidades productivas:</b> Se puede decir que muchas unidades productivas donde se tienen bovinos, elmaltrato a los animales es algo que ocurre con frecuencia y llega a considerarsecomo algo normal, sin tener conciencia de que esto genera pérdidaseconómicas en la producción además de una falta de respeto por un ser vivo.	 
           .tarjeta.tarjeta--slyder.p-4.fnd-4
-            p.mb-0 <b>Conservación de la biodiversidad:</b> permite la conservación de la biodiversidad, pues favorecen la formación de hábitats naturales para otros animales de la zona, logrando establecer un ecosistema que viva en armonía con un sistema de producción ganadera. En su mayoría se benefician a las especies de aves e invertebrados, junto con diferentes tipos de plantas forestales.	
+            p.mb-0 <b>Bienestar animal:</b> Estas pérdidas se pueden reducir con la implementación de parámetros debienestar animal. Por ejemplo, un correcto manejo de fuga consiste en dejarque los animales que son trasladados desde los corrales a los embarques parael transporte hasta el cajón de noqueo o sensibilización en el frigorífico no semaltraten utilizando la fuerza.
           .tarjeta.tarjeta--slyder.p-4.fnd-4
-            p.mb-0 <b>Presencia de árboles:</b> La presencia de árboles en un terreno de ganadería, junto con la acción de sus raíces en el subsuelo, mejora de manera considerable la absorción y el flujo de agua bajo la tierra. El efecto de erosión del suelo se reduce en gran medida y la retención de agua en las raíces contribuye a incrementar la productividad de la tierra.	
+            p.mb-0 <b>Movilización debovinos:</b> El mayor problema cuando se movilizan bovinos es que no se les da laoportunidad de que se muevan según su comportamiento, sino que se llevan ala fuerza, lo que conlleva a un maltrato y gasto de energía en el animal.
           .tarjeta.tarjeta--slyder.p-4.fnd-4
-            p.mb-0 <b>Arbustos forrajeros:</b> los arbustos forrajeros y plantas leguminosas mejoran las propiedades del suelo, pues restituyen el nitrógeno presente en este. Adicionalmente, las raíces de los árboles reciclan los nutrientes del subsuelo en donde el pasto no alcanza a llegar.
+            p.mb-0 <b>Maltrato de bovinos:</b> los arbustos forrajeros y plantas leguminosas mejoran las propiedades del suelo, pues restituyen el nitrógeno presente en este. Adicionalmente, las raíces de los árboles reciclan los nutrientes del subsuelo en donde el pasto no alcanza a llegar.
           .tarjeta.tarjeta--slyder.p-4.fnd-4
-            p.mb-0 <b>Potreros de ganado:</b> la presencia de árboles en los potreros de ganado genera zonas de sombra para los animales, lo que regula su temperatura e incentiva a una mayor ingesta de forraje, aumentando así la productividad de leche y el ritmo de ganancia de peso.
+            p.mb-0 <b>Potreros de ganado:</b> Como se ha expresado anteriormente las consecuencias del maltrato a losbovinos se pueden evidenciar por las fracturas, contusiones, hematomas ypieles en mal estado.
 
     .row.justify-content-center.my-4.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 2.
+          h5 Figura 5.
           span <em>Zona de fuga y punto de balance</em>
         figure
           img.my-3(src='@/assets/curso/temas/tema4/img8.svg', alt='Se muestra una figura coninteracción de componentes.')

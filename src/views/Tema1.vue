@@ -8,15 +8,18 @@
       h1 Sistema silvopastoril
 
     .row.justify-content-center.mb-3
-      .col-lg-8
+      .col-lg-8.align-content-center
         p.mb-2 Es un conjunto de elementos o de unidades que están interrelacionadas entre sí con un objetivo determinado. Una finca ganadera es un sistema que a su vez tiene muchos elementos o unidades productivas llamadas subsistemas y cuando hay una interacción entre ellos, se puede decir que una finca es productiva.
         p.mb-2 En un sistema también hay entradas y salidas, por ejemplo, cuando se compran insumos minerales para la alimentación del ganado o se traen especies menores representan las entradas de elementos al sistema y cuando los animales o alimentos son vendidos, constituyen la salida del sistema de la finca.
         p.mb-2 Un sistema silvopastoril es aquel que combina especies silvestres con la actividad del pastoreo. En otras palabras, es una mezcla de árboles, arbustos, pastos y ganado en un mismo terreno, en donde se pretende que exista una interacción entre los elementos silvestres con los elementos asociados a la actividad de ganadería.
         p.mb-3 Estos arreglos se hacen con el fin de que haya una armonía ecológica y económica entre ambas partes. La adecuada implementación de los sistemas silvopastoriles no solo permite disminuir el impacto ambiental en gran medida, sino que también puede llegar a incrementar los niveles de productividad pecuaria.
       .col-lg-4.col-md-8.align-content-center
+        .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 1.
+            span <em>Bienestar animal</em>
         figure
-          img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')(style="height: 360px")
-
+          img(src='@/assets/curso/temas/tema1/img1.png', alt='Imagen decorativa')(style="height: 300px")
+        figcaption Fuente: SENA (2024).
     .row.mt-4.mb-4.align-items-center(data-aos="fade-left")
       .col-auto
         img(src='@/assets/curso/temas/tema1/img2.svg', alt='Imagen decorativa')
@@ -130,16 +133,19 @@
             h3.mb-0 Cercas vivas
 
         .row.justify-content-center
-          .col-lg-9
+          .col-lg-9.align-content-center
             p.my-2 El sistema de cercas vivas es una práctica muy usada en áreas tropicales y radica en el establecimiento de árboles y arbustos en una sola hilera para delimitar áreas dentro de la finca, es decir, los potreros.
             p.my-2 El establecimiento de este método es mucho más barato que las cercas que siempre se han utilizado (de postes con alambre). Una cerca viva puede estar formada por una sola especie de árbol leñoso o de una especie de postes muertos leñosos.
             p.my-2 La distancia que debe haber entre un árbol y otro puede variar, pero lo más aconsejable es de uno a tres metros.
           .col-lg-3.col-md-6.align-content-center(data-aos="fade-left")
+            .titulo-sexto.color-acento-contenido.mb-3
+                h5 Figura 2.
+                span <em>Cercas</em>
             figure
-              img.my-3(src='@/assets/curso/temas/tema1/img14.png', alt='Texto que describa la imagen')(style="height: 200px")
-
+              img.mt-3(src='@/assets/curso/temas/tema1/img14.png', alt='Se muestra una figura con las cercas.')
+            figcaption Nota. SENA (2024). 
         
-        .row.justify-content-center
+        .row.justify-content-center.my-3
           .col-lg-12.col-md-12
             h5.my-3.green_icon(data-aos="fade-left") Beneficios que ofrecen las cercas vivas
               img.my-3(src='@/assets/curso/temas/tema1/img16.svg', alt='Imagen decorativa')
@@ -294,7 +300,7 @@
                   ul.mb-1
                     li
                       span Gandul.
-          .row(titulo="Establecimiento de cercas vivas multiestratos")
+          .row(titulo="Barreras vivas")
             .col-12
               p.mb-2 Las barreras vivas son cultivos que se siembran en las laderas para evitar la erosión, esta técnica ayuda a la conservación del suelo y del agua, para que actúen como barrera se deben sembrar de manera tupida en los surcos.
               p <b>Importancia de la práctica:</b>

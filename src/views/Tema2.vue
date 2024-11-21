@@ -6,9 +6,18 @@
       .titulo-principal__numero
         span 2
       h1 Banco de proteínas
-    p.mb-2 Los bancos de proteínas son cultivos intensivos de varias especies de leguminosas, estos sirven de alimento para el ganado, son resistentes a las podas y tienen gran capacidad de rebrote.  El forraje que se da en los bancos de proteínas se emplea como suplemento en la dieta del ganado alimentado bajo una dieta de pasto.
-    p.my-3 Se pueden cultivar tres tipos de bancos de proteína:
-
+    .row.justify-content-center.my-3
+      .col-lg-8.align-content-center
+        p.mb-2 Los bancos de proteínas son cultivos intensivos de varias especies de leguminosas, estos sirven de alimento para el ganado, son resistentes a las podas y tienen gran capacidad de rebrote. 
+        p.my-3 El forraje que se da en los bancos de proteínas se emplea como suplemento en la dieta del ganado alimentado bajo una dieta de pasto.
+        p.my-3 Se pueden cultivar tres tipos de bancos de proteína:
+      .col-lg-4.col-md-6.align-content-center(data-aos="fade-left")
+        .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 2.
+            span <em>Cercas</em>
+        figure
+          img.mt-3(src='@/assets/curso/temas/tema2/img9.svg', alt='Se muestra una figura con banco de proteinas.')
+        figcaption Nota. SENA (2024).
     .row.justify-content-center.my-3
       .col-lg-3.col-md-5.p-0.my-3(style="background: #DFC6B3; border-radius: 20px")
         figure
@@ -219,7 +228,10 @@
             span Elaborar, si es necesario, una enmienda teniendo en cuenta el análisis del suelo.
         ul.mb-1
           li
-            span Realizar los caballones situados de oriente a occidente. Sembrar en curvas a nivel de la zona de ladera.
+            span Realizar los caballones situados de oriente a occidente. 
+        ul.mb-1
+          li
+            span Sembrar en curvas a nivel de la zona de ladera.
 
 
     

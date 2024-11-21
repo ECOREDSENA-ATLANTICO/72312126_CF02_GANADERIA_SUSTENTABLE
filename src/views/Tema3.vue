@@ -54,6 +54,8 @@
             img.my-3(src="@/assets/curso/temas/tema3/img6.svg")(style="max-width: 150px")
             p.mb-0 Al tener espacios adecuados se evita la muerte de los bovinos	por hacinamiento. Al prevenir lesiones y estrés en el pre-faenado, se pueden evitar pérdidas económicas de la empresa agropecuaria.	 
           .tarjeta.tarjeta--slyder.p-4.fnd-4
+            p.mb-0 Se reducen las pérdidas económicas porque se evita el deterioro de la canal de sacrificio.
+          .tarjeta.tarjeta--slyder.p-4.fnd-4
             img.my-3(src="@/assets/curso/temas/tema3/img7.svg")(style="max-width: 150px")
             p.mb-0 Se reduce la mortalidad de los animales en el sistema ganadero. Se mejora la calidad y la inocuidad de la carne porque se reduce el estrés de los bovinos.
           .tarjeta.tarjeta--slyder.p-4.fnd-4
@@ -80,12 +82,12 @@
     .row.justify-content-center.my-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 1.
+          h5 Figura 3.
           span <em>Bienestar animal</em>
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema3/img10.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/img10.svg', alt='Se muestra una figura con consecuencias del maltrato y prácticas inadecuadas de bienestar animal.')
               figcaption Nota: Sena (2024).
 
           .tarjeta.color-acento-botones.p-3(x="15%" y="20%" numero="1")
