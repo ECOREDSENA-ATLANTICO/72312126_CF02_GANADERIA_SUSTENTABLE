@@ -115,7 +115,7 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 7.
           span <em>Consecuencias del maltrato y prácticas inadecuadas de bienestar animal.</em>
-        img(src='@/assets/curso/temas/tema3/img9.png', alt='La imagen muestra las prácticas inadecuadas que generan lesiones a los animales.')
+        img(src='@/assets/curso/temas/tema3/img9.jpg', alt='La imagen muestra las prácticas inadecuadas que generan lesiones a los animales.')
         figcaption Fuente: SENA (2024).
 
 

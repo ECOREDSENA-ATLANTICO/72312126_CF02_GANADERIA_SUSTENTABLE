@@ -105,17 +105,17 @@
     p.my-3 El estrés se puede definir como el estado de adaptación del animal, que se caracteriza por el desequilibrio de la homeostasis como resultado de la acción de uno o más factores de origen interno y externo, que elabora el sistema nervioso central en función del estado emocional del individuo y de sus experiencias previas.
     p.my-3 El estrés trae como consecuencia un estímulo agresivo que afecta el animal como el miedo, el hambre, la sed, las condiciones climáticas severas o agentes nocivos que causan cambios fisiológicos y que pueden generar un estado patológico si el factor que lo provoca se mantiene por largo tiempo.
 
-    h5.mt-4.green_icon(data-aos="fade-left") Efectos del estrés sobre la calidad de la carne
-      img.my-3(src='@/assets/curso/temas/tema3/img3.svg', alt='Imagen decorativa')
     .row.justify-content-center
-      .col-lg-7.align-content-center
+      .col-lg-9.align-content-center
+        h5.mt-4.green_icon(data-aos="fade-left") Efectos del estrés sobre la calidad de la carne
+          img.my-3(src='@/assets/curso/temas/tema3/img3.svg', alt='Imagen decorativa')
         p.my-3 Cuando el animal cae en estrés antes de la matanza se agota el glucógeno muscular y esto da como resultado un pH final de la carne alto superior de 6,0 y por lo tanto las proteínas se encuentran fuera de su punto isoeléctrico, por lo cual absorbe gran cantidad de agua que le da a la carne una apariencia superficial seca. Adicionalmente, el alto valor del pH favorece el crecimiento de las bacterias y la vida útil de la carne se ve reducida.
         p.my-3 Este tipo de carnes producidas bajo estrés se les denomina oscuras, firmes y seca o DFD que es la sigla en inglés.
-      .col-lg-5.col-md-8 
+      .col-lg-3.col-md-8 
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 7.
           span <em>Consecuencias del maltrato y prácticas inadecuadas de bienestar animal.</em>
-        img(src='@/assets/curso/temas/tema3/img9.png', alt='La imagen muestra las prácticas inadecuadas que generan lesiones a los animales.')
+        img(src='@/assets/curso/temas/tema3/img9.jpg', alt='La imagen muestra las prácticas inadecuadas que generan lesiones a los animales.')
         figcaption Fuente: SENA (2024).
 
 

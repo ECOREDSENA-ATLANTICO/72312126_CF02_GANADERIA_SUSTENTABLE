@@ -12,7 +12,7 @@
     p.mb-3(data-aos="flip-up") El componente formativo forrajes y planificación ganadera se enfoca en describir los sistemas silvopastoriles, los bancos de proteínas, los bancos mixtos de forrajes y su importancia como alternativas de producción ganadera. Bienvenido a este componente formativo:
 
     .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/3nw-EK02_yQ?si=HZ7pYaIlMeYz2Ayf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/vOJdSHYdX0E?si=ADKWzg2Y52Iw9iyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     figcaption Nota: Sena (2024).
     
 </template>
