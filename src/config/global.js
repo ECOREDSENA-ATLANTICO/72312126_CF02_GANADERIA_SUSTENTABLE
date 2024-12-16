@@ -111,7 +111,7 @@ export default {
     {
       tema: 'Planificación forrajera',
       referencia:
-        'SENA (2022) Ecosistema de Recursos Educativos Digitales - Cap 32 - Planificación Forrajera (visióngeneral). [Video]. Youtube.',
+        'SENA (2022) Ecosistema de Recursos Educativos Digitales - Cap 32 - Planificación Forrajera (visión general). [Video].Youtube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/embed/NTInNPga31g?si=FEgxoZBlSCcbl2-V',
     },
